@@ -13,8 +13,8 @@ const Contact = () => {
         initial='hidden'
         animate='show'
         exit='hidden'
-        className='h2 text-center mb-12'
-        >Let&aspos;s <span className='text-accent'>Connect.</span>
+        className='mb-8 h2 text-center lg:mb-12'
+        >Let&apos;s <span className='text-accent'>Connect.</span>
         </motion.h2>
         <motion.form
           variants={fadeIn('up', 0.4)}

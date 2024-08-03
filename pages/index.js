@@ -14,7 +14,7 @@ const Home = () => {
         initial='hidden' 
         animate='show' 
         exit='hidden' 
-        className="h1">Transforming Visions <br /> Into <span className="text-accent">Digital Reality</span>
+        className="mt-[60px] lg:mt-0 h1">Transforming Visions <br /> Into <span className="text-accent">Digital Reality</span>
         </motion.h1>
         
         <motion.p 
@@ -25,7 +25,7 @@ const Home = () => {
         className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16">Welcome to my digital realm, where creativity meets technology. As an individual student, I transform innovative ideas into sleek websites and captivating user experiences. Join me in turning your visions into digital reality.
         </motion.p>
         
-        <div className="flex justify-center xl:hidden relative">
+        <div className="flex justify-center xl:hidden relative z-50">
           <ProjectsBtn />
         </div>
         

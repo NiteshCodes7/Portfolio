@@ -15,7 +15,7 @@ const Work = () => {
               initial='hidden'
               animate='show'
               exit='hidden'
-              className="h2 mt-10 xl:mt-12">
+              className="h2 mt-0 xl:mt-12">
                 My Work <span className="text-accent">.</span>
             </motion.h2>
 
@@ -24,7 +24,7 @@ const Work = () => {
               initial='hidden'
               animate='show'
               exit='hidden'
-              className="mb-4 max-w-[400px] mx-auto lg:mx-0">
+              className="mb-4 max-w-[400px] text-sm mx-auto md:text-lg lg:mx-0">
               As a beginner in the world of web development, I bring a fresh perspective and a keen eagerness to learn. In addition to my coding journey, I am passionate about photography, capturing the beauty of the world through my lens. This unique combination of technical skills and artistic vision shapes my approach to creating digital experiences.
             </motion.p>
 

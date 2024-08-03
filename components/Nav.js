@@ -47,7 +47,7 @@ const Nav = () => {
 
   return (
     <nav className='flex flex-col items-center xl:justify-center gap-y-4 fixed h-max bottom-0 mt-auto xl:right-[2%] z-50 w-full xl:w-16 xl:max-w-md xl:h-screen'>
-      <div className='flex w-full xl:flex-col justify-between items-center xl:justify-center gap-y-10 px-4 md:px-40 xl:px-0 h-[80px] lg:h-max py-8 bg-white/10 backdrop-blur-sm text-3xl xl:text-xl xl:rounded-full'>
+      <div className='flex w-full xl:flex-col justify-between items-center xl:justify-center gap-y-10 px-4 md:px-40 xl:px-0 h-[40px] sm:h-[50px] md:h-[60px] lg:h-[70px] xl:h-max py-8 bg-white/10 backdrop-blur-sm text-3xl xl:text-xl xl:rounded-full'>
         {navData.map((link, index) => {
           const isActive = link.path === pathName;
           return (
@@ -63,7 +63,7 @@ const Nav = () => {
                   </div>
                 </div>
                 
-                <div>
+                <div className="text-[20px] sm:text-[24px] md:text-[19px] lg:text-[23px] xl:text-[20px]">
                   {link.icon}
                 </div>
               </div>

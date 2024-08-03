@@ -98,7 +98,7 @@ const About = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h2"
+            className="text-2xl md:text-4xl md:mt-5 h2 xl:text-6xl"
           >
             Captivating <span className="text-accent">stories</span> birth magnificent designs
           </motion.h2>
@@ -108,7 +108,7 @@ const About = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-[500px] mx-auto xl:mx-0 xl:mb-12"
+            className="text-sm md:text-lg md:mt-3 max-w-[500px] mx-auto xl:mx-0 xl:mb-12"
           >
             Hi, I&apos;m Nitesh Ghosh, a passionate web developer and programmer with a keen interest in creating seamless and engaging digital experiences. Currently, I am a second-year Electrical Engineering student at Kalyani Government Engineering College, where I am honing my skills in various programming languages and frameworks.
           </motion.p>
@@ -120,11 +120,11 @@ const About = () => {
           exit="hidden"
           className="flex flex-col w-full xl:max-w-[42%] h-[200px] xl:h-[421px]"
         >
-          <div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4">
+          <div className="mt-3 md:mt-12 flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4">
             {aboutData.map((item, itemIndex) => (
               <div
                 key={itemIndex}
-                className={`${index === itemIndex && 'text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-300'} cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0`}
+                className={`${index === itemIndex && 'text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-300'} text-sm cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0`}
                 onClick={() => setIndex(itemIndex)}
               >
                 {item.title}
@@ -135,14 +135,14 @@ const About = () => {
             {aboutData[index].info.map((item, itemIndex) => (
               <div
                 key={itemIndex}
-                className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60"
+                className="text-sm flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60"
               >
                 <div className="font-light mb-2 md:mb-0">{item.title}</div>
                 <div className="hidden md:flex">-</div>
                 <div>{item.stage}</div>
                 <div className="flex gap-x-4">
                   {item.icons?.map((icon, iconIndex) => (
-                    <div className="text-2xl text-white" key={iconIndex}>
+                    <div className="text-sm md:text-2xl text-white" key={iconIndex}>
                       {icon}
                     </div>
                   ))}

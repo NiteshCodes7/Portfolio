@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@next/font": "^13.4.4",
     "framer-motion": "^10.12.16",
     "next": "^14.2.5",
     "nodemailer": "^6.9.14",
@@ -25,7 +24,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.14",
     "eslint": "8.41.0",
-    "eslint-config-next": "13.4.3",
+    "eslint-config-next": "14.2.5",
     "postcss": "^8.4.23",
     "tailwindcss": "^3.3.2"
   }
