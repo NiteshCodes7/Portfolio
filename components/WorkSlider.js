@@ -14,7 +14,7 @@ const workSlides = {
       images: [
         {
           title: 'Expense Tracker',
-          path: '/thumb1.jpg',
+          path: '/thumb1.png',
           link: 'https://expense-tracker-beige-eight.vercel.app/'
         },
         {

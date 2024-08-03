@@ -14,7 +14,7 @@ const Home = () => {
         initial='hidden' 
         animate='show' 
         exit='hidden' 
-        className="mt-[60px] lg:mt-0 h1">Transforming Visions <br /> Into <span className="text-accent">Digital Reality</span>
+        className="mt-[40px] lg:mt-0 h1">Transforming Visions <br /> Into <span className="text-accent">Digital Reality</span>
         </motion.h1>
         
         <motion.p 
