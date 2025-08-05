@@ -13,24 +13,24 @@ const workSlides = {
     {
       images: [
         {
-          title: 'Expense Tracker',
+          title: 'Essentia.AI - AI Powered Pdf Summariser SaaS',
+          path: '/thumb0.png',
+          link: 'https://essentia-ai-ochre.vercel.app/'
+        },
+        {
+          title: 'Resumate - AI Resume Builder',
           path: '/thumb1.png',
-          link: 'https://expense-tracker-beige-eight.vercel.app/'
+          link: 'https://athumb1.pngi-resume-builder-rj1b.vercel.app/'
         },
         {
-          title: 'TextToSpeech',
-          path: '/thumb2.jpg',
-          link: 'https://df9ff7a1.text-to-speech-converter-1vb.pages.dev/'
+          title: 'Figma - Clone',
+          path: '/thumb2.png',
+          link: 'https://figma-clone-two-xi.vercel.app/'
         },
         {
-          title: 'PixSearch',
+          title: 'PixSearch - AI Image Generator',
           path: '/thumb3.jpg',
           link: 'https://pix-search-2958.vercel.app/'
-        },
-        {
-          title: 'MusicoPhilix',
-          path: '/thumb4.jpg',
-          link: 'https://musico-philix.vercel.app/'
         },
       ],
     },

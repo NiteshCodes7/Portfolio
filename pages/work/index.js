@@ -25,7 +25,7 @@ const Work = () => {
               animate='show'
               exit='hidden'
               className="mb-4 max-w-[400px] text-sm mx-auto md:text-lg lg:mx-0">
-              As a beginner in the world of web development, I bring a fresh perspective and a keen eagerness to learn. In addition to my coding journey, I am passionate about photography, capturing the beauty of the world through my lens. This unique combination of technical skills and artistic vision shapes my approach to creating digital experiences.
+              I&apos;m a MERN full stack developer with a passion for building smart, user-focused web apps. From AI-powered tools like Essentia.ai and CropWise to college-level platforms, I bring a balance of clean code and practical design. I also enjoy photography, which sharpens my eye for detail and UI aesthetics.
             </motion.p>
 
             </div>
