@@ -23,14 +23,14 @@ const workSlides = {
           link: 'https://athumb1.pngi-resume-builder-rj1b.vercel.app/'
         },
         {
+          title: 'CropWise - AI Crop Detector',
+          path: '/thumb9.png',
+          link: 'https://crop-wise-kappa.vercel.app/'
+        },
+        {
           title: 'Figma - Clone',
           path: '/thumb2.png',
           link: 'https://figma-clone-two-xi.vercel.app/'
-        },
-        {
-          title: 'PixSearch - AI Image Generator',
-          path: '/thumb3.jpg',
-          link: 'https://pix-search-2958.vercel.app/'
         },
       ],
     },
